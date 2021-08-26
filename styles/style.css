@@ -89,7 +89,7 @@ p {
   border: transparent;
 }
 
-.container {
+.container-about {
   width: 1200px;
   margin: 10px auto;
   box-sizing: border-box;
@@ -119,7 +119,7 @@ input {
   color: rgb(245, 245, 245);
 }
 
-.header {
+.header-about {
   justify-content: center;
   align-items: center;
   grid-area: header;
@@ -127,17 +127,17 @@ input {
   padding-top: 30px;
 }
 
-.aside {
+.aside-about {
   grid-area: aside;
   padding: 8px;
 }
 
-.nav {
+.nav-about {
   grid-area: nav;
   padding: 8px;
 }
 
-.main {
+.main-about {
   grid-area: main;
   box-sizing: border-box;
   align-items: center;
@@ -173,7 +173,7 @@ h1 {
   padding-top: 20px;
 }
 
-.desc1 {
+.desc1-about {
   font-size: 14.8px;
   color: rgb(42, 42, 42);
   padding-right: 14px;
@@ -191,26 +191,26 @@ h1 {
   background-color: rgb(238, 238, 238);
 }
 
-.header1 {
+.header-services {
   justify-content: center;
   align-items: center;
   grid-area: header;
   padding: 16px 14px 0px 14px;
 }
 
-.judul-content1 {
+.judul-content-services {
   text-align: center;
   font-size: 18px;
   font-weight: 500;
 }
 
-.desc-content1 {
+.desc-content-services {
   text-align: center;
   font-size: 10px;
   color: grey;
 }
 
-.container2 {
+.container-news {
   width: 1200px;
   box-sizing: border-box;
   padding: 5px;
@@ -220,90 +220,73 @@ h1 {
     "main aside"
     "main nav";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.3fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.6fr 1fr;
   margin: 20px 200px;
 }
-.header2 {
+.header-news {
   justify-content: center;
   align-items: center;
   grid-area: header;
   text-align: center;
   padding: 50px 0px 60px 60px;
 }
-.aside2 {
+.aside-news {
   grid-area: aside;
-  padding: 10px 90px 10px 40px;
+  padding: 10px 90px 10px 0px;
 }
-.nav2 {
+.nav-news {
   grid-area: nav;
-  padding: 0px 90px 0px 40px;
+  padding: 0px 90px 0px 0px;
 }
-.main2 {
+.main-news {
   grid-area: main;
   box-sizing: border-box;
   align-items: center;
 }
-.desc-aside2 {
+.desc-aside-news {
   font-weight: 600;
   padding: 2px 0px;
 }
-.desc1-aside2 {
+.desc1-aside-news {
   color: rgb(242, 188);
   font-size: 10px;
   padding: 2px 0px;
   color: rgb(247, 188, 88);
 }
-.desc2-aside2 {
+.desc2-aside-news {
   font-size: 14px;
   color: rgb(42, 42, 42);
   padding: 2px 0px;
 }
 
-.btn-more-aside2 {
+.btn-more-aside-news {
   border: transparent;
   background-color: transparent;
   padding: 0;
   font-weight: 700;
 }
-.dis-btn-more-aside2 {
+.dis-btn-more-aside-news {
   padding: 14px 0px;
 }
-.judul-content2 {
+.judul-content-news {
+  padding-right: 100px;
   font-size: 18px;
   font-weight: 600;
 }
-.desc-content2 {
+.desc-content-news {
+  padding-right: 100px;
   font-size: 12px;
   color: grey;
 }
-.container3 {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 5px;
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "aside aside"
-    "main main";
-  grid-template-columns: 2fr;
-  grid-template-rows: 0.5fr 1fr;
-  background-color: rgb(238, 238, 238);
-}
-.header3 {
-  justify-content: center;
-  align-items: center;
-  grid-area: header;
-  padding: 16px 14px 0px 14px;
-}
 
-.desc-content3 {
+.desc-content-sign {
   text-align: center;
   font-size: 13px;
   color: grey;
   padding: 4px 0px 12px 8px;
 }
 
-.container4 {
+.container-footer {
   width: 100%;
   box-sizing: border-box;
   display: grid;
@@ -314,7 +297,7 @@ h1 {
   margin-top: -137px;
 }
 
-.header4 {
+.header-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -328,36 +311,36 @@ h1 {
   width: 400px;
 }
 
-.cont4-desc1 {
+.cont-footer-desc1 {
   font-family: "Gotham";
   padding: 8px 0px;
 }
 
-.cont4-desc2 {
+.cont4-footer-desc2 {
   font-size: 11.5px;
 }
 
-.const4-desc3 {
+.const4-footer-desc3 {
   font-size: 14px;
   font-weight: 600;
   padding: 8px 0px;
 }
 
-.const4-desc4 {
+.const4-footer-desc4 {
   font-size: 12px;
   text-decoration: underline;
 }
 
-.const4-desc5 {
+.const4-footer-desc5 {
   font-size: 12px;
 }
 
-.display3 {
+.display-sign {
   background-color: rgb(238, 238, 238);
   padding: 50px 0px;
 }
 
-.container5 {
+.container-sign {
   width: 100%;
   box-sizing: border-box;
   display: grid;
