@@ -151,8 +151,8 @@ export default function Home() {
       <div className="container-footer">
         <header className="header-footer">
           <div className="desc-header-footer">
-            <div className="cont-footer-desc1">Mr. GAVONOV</div>
-            <div className="cont-footer-desc2">
+            <div className="const-footer-desc1">Mr. GAVONOV</div>
+            <div className="const-footer-desc2">
               Far concluded not his something extremity. Want four we face an he
               gate. On he of played he ladies answer little though nature.
               Blessing oh do pleasure as so formerly. Took four spot soon led
